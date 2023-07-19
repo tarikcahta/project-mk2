@@ -1,12 +1,18 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+  // general styles
+  textStyle: {
+    color: 'white',
+  },
+
+  //log in screen
   container: {
     flex: 1,
     height: '100%',
-    alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(37,39,62,255)',
+    alignItems: 'center',
+    backgroundColor: '#201f37',
   },
   headerPosition: {
     // flex: 1,
@@ -15,7 +21,6 @@ export const styles = StyleSheet.create({
     marginBottom: '15%',
   },
   headerTextStyle: {
-    color: 'white',
     fontSize: 30,
   },
   middleContentPosition: {
@@ -27,7 +32,7 @@ export const styles = StyleSheet.create({
   },
   inputStyle: {
     backgroundColor: '#25273e',
-    borderColor: '#ee3a57',
+    borderColor: '#e63e57',
     height: 40,
     borderRadius: 20,
     borderWidth: 1,
@@ -38,14 +43,13 @@ export const styles = StyleSheet.create({
     width: '100%',
     height: 40,
     borderRadius: 20,
-    backgroundColor: '#ee3a57',
+    backgroundColor: '#e63e57',
     color: 'white',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
   },
   buttonTextStyle: {
-    color: 'white',
     fontSize: 18,
   },
 
@@ -56,7 +60,6 @@ export const styles = StyleSheet.create({
   },
   hintText: {
     // textAlign: 'center',
-    color: 'white',
     fontSize: 15,
   },
   footerContentPosition: {
@@ -70,9 +73,23 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
   },
   signUpTextStyle: {
-    color: 'white',
+    //
   },
   signUpButtonStyle: {
-    color: '#ee3a57',
+    color: '#e63e57',
+  },
+
+  // Home screen styles
+  cardsPositionStyles: {
+    flex: 2,
+    width: '100%',
+    alignItems: 'center',
+  },
+  cardStyle: {
+    backgroundColor: '#c3c4ce',
+    borderRadius: 35,
+    marginVertical: 20,
+    width: '95%',
+    height: 150,
   },
 });
