@@ -6,7 +6,7 @@ export default function LogInInput({ placeholder }) {
       <TextInput
         style={styles.inputStyle}
         placeholder={placeholder}
-        placeholderTextColor={'white'}
+        placeholderTextColor={'#c3c4ce'}
       />
     </View>
   );
