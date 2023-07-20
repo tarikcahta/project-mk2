@@ -1,17 +1,17 @@
 import { Text, View } from 'react-native';
 import { styles } from './styles/styles';
 
-export const Home = () => {
+import { SingleCard } from '../components/SingleCard';
+
+export default function Home() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Home</Text>
+        <Text style={styles.homeScreenHeaderStyle}>Home</Text>
       </View>
       <View style={styles.cardsPositionStyles}>
-        <View style={styles.cardStyle}>
-          <Text style={{ marginLeft: 20, marginTop: 20 }}>Howdy</Text>
-        </View>
+        <SingleCard />
       </View>
     </View>
   );
-};
+}
