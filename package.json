@@ -21,7 +21,8 @@
     "react-native-social-login-screen": "^0.2.3",
     "react-native-spinkit": "^1.5.1",
     "react-native-svg": "13.4.0",
-    "react-native-svg-transformer": "^1.0.0"
+    "react-native-svg-transformer": "^1.0.0",
+    "expo-linear-gradient": "~12.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
