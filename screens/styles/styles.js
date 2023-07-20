@@ -80,16 +80,14 @@ export const styles = StyleSheet.create({
   },
 
   // Home screen styles
+  homeScreenHeaderStyle: {
+    color: 'white',
+    marginTop: 35,
+    fontSize: 25,
+  },
   cardsPositionStyles: {
     flex: 2,
     width: '100%',
     alignItems: 'center',
-  },
-  cardStyle: {
-    backgroundColor: '#c3c4ce',
-    borderRadius: 35,
-    marginVertical: 20,
-    width: '95%',
-    height: 150,
   },
 });
