@@ -10,7 +10,7 @@ export default function Home() {
         <Text style={styles.homeScreenHeaderStyle}>Home</Text>
       </View>
       <View style={styles.cardsPositionStyles}>
-        <SingleCard />
+        <SingleCard value={18.2} />
       </View>
     </View>
   );
